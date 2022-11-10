@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Run</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <style>
+     a{
+      display: flex;
+      text-decoration: none;
+      color:black;
+     }
+     .img2{
+      padding-top: 20px;
+     }
+     .box2{
+      padding-top: 20px;
+      margin-top: 20px;
+      background-color: black;
+      height: 110px;
+      display: flex;
+     }
+     .container{
+      margin-top: 20px;
+     }
+     .box4{
+      background-color: aliceblue;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-top: 50px;
+      height: 270px;
+     }
+     .item0{
+      float: right;
+      margin-top: -165px;
+      padding-right: 20px;
+     }
+     .box5{
+      margin: 12px;
+     }
+     footer{
+      background-color: black;
+      color:white;
+      font-size: 16px;
+      width: 100%;
+     }
+     footer * {
+      font-family: "poppins", sans-serif;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+      width: 100%;
+     }
+     .row{
+      padding: 1em 1em;
+     }
+     .row.primary{
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 2fr;
+      align-items: stretch;
+     }
+     .column{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2em;
+      min-height: 15em;
+     }
+     h3{
+      width: 100%;
+      text-align: left;
+      color: white;
+      font-size: 1.4em;
+      white-space: nowrap;
+     }
+     .list{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+     }
+     li:not(:first-child){
+      margin-top: 0.8em;
+     }
+     .list .drop a {
+      text-decoration: none;
+     }
+     .list .drop a:hover{
+      color: #2a8ded;
+     }
+     .about p{
+      text-align: justify;
+      line-height: 2;
+      margin: 0;
+     }
+     input,.but{
+      font-size: 1em;
+      padding: 1em;
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 5px;
+     }
+     .but{
+      background-color: #c7940d;
+      color:#ffffff;
+     }
+     div.social{
+      display: flex;
+      justify-content: space-around;
+      font-size: 2.4em;
+      flex-direction: row;
+      margin-top: 0.5em;
+     }
+     .social span{
+      color: #bac6d9;
+     }
+     .copyright{
+      background-color: black;
+      width: 100%;
+     }
+     .footer-menu{
+      float: left;
+      margin-top: 10px;
+     }
+     .footer-menu a {
+      color:#cfd2d6;
+      padding: 6px;
+      text-decoration: none;
+     }
+     .footer-menu a:hover{
+      color: #27bcda;
+     }
+     .copyright p{
+      font-size: 0.9em;
+      text-align: right;
+     }
+     @media screen and (max-width:850px) {
+         .row.primary{
+          grid-template-columns: 1fr;
+         }
+     }
+     
+
+    </style>
+</head>
+<body>
+  
+  <nav style="position:fixed;width:100%" class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GLITZ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="thirdpage.html">
+            
+            </a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="fourthpage.html">
+              <span class="bi bi-heart"></span>
+            </a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="secondpage.html">
+              <span class="bi bi-eye"></span>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div style="margin:12px" class="box3">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;height: 500px;" src="fashion.j.JPG">
+        <a href="party.html">
+        <p>SHOP PARTY DRESSES</p></a>
+      </div>
+      
+      <div class="col-sm-4">
+        <img style="width:100%;height: 500px;" src="fashion.i.JPG">
+        <a href="new.html">
+        <p>SHOP NEW DRESSES</p></a>
+      </div>
+      <div class="col-sm-4">
+        <img style="width:100%;height: 500px;" src="IMG_8789.JPG">
+        <a href="summer.html">
+        <p>SHOP SUMMER DRESSES</p></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <img  class="img3" style="width:100%;height: 450px;" src="fashion.s.JPG">
+        <a href="matching sets.html">
+        <h5>MATCHING SETS</h5></a>
+        <h6 style="color:green">STARTING AT $14</h6>
+      </div>
+      <div class="col-sm-6">
+        <img class="img4" style="width:100%;height: 450px;" src="fashion.k.JPG">
+        <a href="jumpsuits">
+        <h5>JUMPSUITS</h5></a>
+        <h6 style="color:green">STARTING AT $12</h6>
+      </div>
+    </div>
+  </div>
+  <div class="box4">
+    <h7 style="color:black">LAST CHANCE SALE</h7>
+    <h1 style="color:black;font-size:xxx-large">80% OFF</h1>
+    <h1 style="color:black">ALL SALE</h1>
+    <div class="minibox">
+      <a href="sale">
+      <h6 style="background-color:black;color:white;width:100px;height:25px;padding-left:15px;padding-top:2px">SALE</h6></a>
+    </div>
+    <div class="item0">
+      <h7 style="color:black">BLOWOUT SALE COLLECTION</h7>
+      <h1 style="color:black;font-size:xxx-large">80% OFF</h1>
+      <h1 style="color:black">EVERYTHING</h1>
+      <div class="minibox1">
+        <a href="blowout">
+        <h6 style="background-color:black;color:white;width:100px;height:25px;padding-left:6px;padding-top:2px;">BLOWOUT</h6></a>
+      </div>
+    </div>
+  </div>
+  <div class="box5">
+    <div class="row">
+      <div class="col-sm-4">
+        <img style="width:100%;height:300px" src="fashion.l.JPG">
+        <a href="denim">
+        <h5 style="color:green">PREMIUM DENIM</h5></a>
+        <h6>STARTING AT $15</h6>
+      </div>
+      <div class="col-sm-4">
+        <img style="width:100%;height:300px" src="fashion.n.JPG">
+        <h1 style="color:green">30% OFF</h1>
+        <a href="cargos">
+        <h5>CARGOS</h5></a>
+      </div>
+      <div class="col-sm-4">
+        <img style="width:100%;height:300px" src="fashion.q.JPG">
+        <h1 style="color:green">30% OFF</h1>
+        <a href="graphics">
+        <h5>GRAPHICS</h5></a>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="row primary">
+      <div class="column about">
+        <div class="social">
+          <span class="bi bi-instagram"></span>
+          <span class="bi bi-tiktok"></span>
+          <span class="bi bi-youtube"></span>
+          <span class="bi bi-snapchat"></span>
+          <span class="bi bi-facebook"></span>
+        </div>
+      </div>
+      <div class="column links">
+        <h3>some links</h3>
+        <ul class="list">
+          <li class="drop">
+          <a style="color:white" href="#cookies-policy">cookies-policy</a></li>
+          <li>
+            <a style="color:white" href="#terms of services">Terms of service</a>
+          </li>
+          <li class="drop">
+            <a style="color:white" href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="column links">
+        <h3>some links</h3>
+        <ul class="list">
+          <li class="drop">
+          <a style="color:white" href="#cookies-policy">cookies-policy</a></li>
+          <li>
+            <a style="color:white" href="#terms of services">Terms of service</a>
+          </li>
+          <li class="drop">
+            <a href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column subscribe">
+      <h3>Newsletter</h3>
+       <div>
+       <input type="email" placeholder="your email id here">
+       <button class="but">Subscribe</button>
+         </div>
+    </div>
+    </div>
+
+    <div class="row copyright">
+      <div class="footer-menu">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Blog</a>
+      <a href="">Socials</a>
+    </div>
+    <p>Copyright &copy; 2021 GLITZ</p>
+    </div>
+  </footer>
+
+
+  
+
+</body>
+</html>
